@@ -1,0 +1,20 @@
+<!-- compliance_agent/templates/upload.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compliance Agent - Upload Document</title>
+</head>
+<body>
+    <h2>📄 Upload a Document</h2>
+    <form action="/upload/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required />
+        <button type="submit">Upload & Extract</button>
+    </form>
+
+    {% if content %}
+    <h3>📝 Extracted Content:</h3>
+    <pre>{{ content }}</pre>
+    {% endif %}
+</body>
+</html>

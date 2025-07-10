@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pdfplumber
+python-docx
+pytesseract
+pillow 
+pandas 
+openpyxl 
+python-multipart 
+python-magic 
+jinja2pip install 
+
